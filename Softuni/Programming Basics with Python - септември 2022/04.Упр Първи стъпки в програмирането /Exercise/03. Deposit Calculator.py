@@ -1,0 +1,1 @@
+print(f"{(x := float(input())) + ((x * (z := float(input())) / 100) / 12) * (y := float(input()))}")
