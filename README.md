@@ -32,5 +32,3 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 By having everything in one place, I aim to stay focused and ensure continuous learning as I strive to achieve my goal of becoming a **Google Software Engineer**. 🌟
 
 ---
-
-This `README.md` gives structure to your repository, making it easy to showcase your journey and progress. You can edit and expand it as needed!
