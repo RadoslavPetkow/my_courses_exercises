@@ -1,1 +1,0 @@
-print((int(input())*5.80+int(input())*7.20+int(input())*1.20)*(1-int(input())/100))
