@@ -1,0 +1,1 @@
+print(f"The architect {(name := str(input()))} will need {(hours := int(input())) * 3} hours to complete {hours} project/s.")
