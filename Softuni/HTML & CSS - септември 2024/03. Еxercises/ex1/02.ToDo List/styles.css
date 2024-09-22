@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+ol.todo li {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+ol.done li {
+  font-size: 18px;
+  color: gray;
+  text-decoration: line-through;
+}
