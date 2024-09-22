@@ -1,0 +1,15 @@
+/* Setting font-family for html element to Lato */
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Ensuring body and heading elements inherit the font family from html */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+}
