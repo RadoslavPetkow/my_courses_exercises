@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.box {
+  width: 400px;
+  padding: 20px;
+  border: 15px solid orange;
+  margin: 30px;
+  background-color: lightgreen;
+  position: relative;
+}
+
+.content {
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px dashed #333;
+  text-align: center;
+  position: relative;
+}
+
+.box::before {
+  content: "margin";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: black;
+}
+
+.box::after {
+  content: "border";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: black;
+}
+
+.content::before {
+  content: "padding";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: black;
+}
